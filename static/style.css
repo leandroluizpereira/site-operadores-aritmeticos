@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    margin:0px;
+
+}
+
+main{
+    padding: 10px;
+ margin: 40px auto auto auto;
+ width: 470px;
+ background-color: brown;
+
+}
+.container{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-arit{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: beige;
+}
+input{
+    margin-left:10px;
+    text-align: center;
+}
+.botao{
+    margin-left:10px;
+    background-color: darkgreen;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: rgb(114, 0, 0);
+}
+h2:hover{
+    background-color: darksalmon;
+    cursor: pointer;
+}
+
+h1{
+    margin: 13px;
+    border-radius: 10px;
+    background-color: rgb(109, 23, 23);
+    text-align: center;
+    color: white;
+}
