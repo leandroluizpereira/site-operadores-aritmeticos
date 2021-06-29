@@ -3,16 +3,21 @@
 body{
     margin:0px;
 
+
 }
 
 main{
-    padding: 10px;
+    border-radius: 20px;
+
+    padding: 20px;
  margin: 40px auto auto auto;
  width: 470px;
  background-color: brown;
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.398);
 
 }
 .container{
+
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -43,6 +48,7 @@ h2:hover{
 }
 
 h1{
+    font-size: 25px;
     margin: 13px;
     border-radius: 10px;
     background-color: rgb(109, 23, 23);
