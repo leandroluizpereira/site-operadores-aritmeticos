@@ -7,7 +7,7 @@ var n1 = document.getElementById("numberUm").value;
 var soma = parseInt(n)+parseInt(n1);
 var sub = parseInt(n)-parseInt(n1);
 var mult = parseInt(n)*parseInt(n1);
-var pt = parseInt(n)*(parseInt(n1)*parseInt(n1));
+var pt = parseInt(n)**parseInt(n1);
 var divi = parseInt(n)/parseInt(n1);
 
 var raiz =Math.sqrt(soma).toFixed(2);
